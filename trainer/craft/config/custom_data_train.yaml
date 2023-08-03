@@ -87,12 +87,12 @@ train:
 
 test:
   trained_model : null
-  custom_data:
+  custom_data: 
     test_set_size: 500
-    test_data_dir: "./data_root_dir/"
-    text_threshold: 0.75
+    test_data_dir: "/content/drive/MyDrive/datasets/DILab_perscription_Dataset/temp_100_L1"
+    text_threshold: 0.756
     low_text: 0.5
-    link_threshold: 0.2
+    link_threshold: 0.0095
     canvas_size: 2240
     mag_ratio: 1.75
     poly: False

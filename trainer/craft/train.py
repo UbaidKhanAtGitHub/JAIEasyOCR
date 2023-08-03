@@ -450,7 +450,7 @@ def main():
 
     # Duplicate yaml file to result_dir
     shutil.copy(
-        "/content/EasyOCR/trainer/craft/config/" + args.yaml + ".yaml", os.path.join(res_dir, args.yaml) + ".yaml"
+        "/content/JAIEasyOCR/trainer/craft/config/" + args.yaml + ".yaml", os.path.join(res_dir, args.yaml) + ".yaml"
     )
 
     if config["mode"] == "weak_supervision":

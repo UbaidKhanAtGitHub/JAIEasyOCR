@@ -14,7 +14,7 @@ train:
   synth_data_dir: "/data/SynthText/"
   synth_ratio: 5
   real_dataset: "custom"
-  ckpt_path: "/content/drive/MyDrive/CRAFT/craft_models/detection/training/CRAFT_clr_amp_29500.pth"
+  ckpt_path: "/content/drive/MyDrive/CRAFT/craft_models/detection/CRAFT_clr_amp_29500.pth"
   eval_interval: 150
   batch_size: 10
   st_iter: 0

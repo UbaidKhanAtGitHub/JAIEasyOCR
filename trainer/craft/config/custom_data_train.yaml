@@ -89,7 +89,7 @@ test:
   trained_model : null
   custom_data: 
     test_set_size: 500
-    test_data_dir: "/content/drive/MyDrive/datasets/DILab_perscription_Dataset/temp_100_L1"
+    test_data_dir: "/content/drive/MyDrive/CRAFT/CRAFTS_Det_Training_data/data_root_dir/ch4_test_images"
     text_threshold: 0.756
     low_text: 0.5
     link_threshold: 0.0095

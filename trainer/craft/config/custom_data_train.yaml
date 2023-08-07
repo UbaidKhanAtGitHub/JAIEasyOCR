@@ -15,7 +15,7 @@ train:
   synth_ratio: 5
   real_dataset: "custom"
   ckpt_path: "/content/drive/MyDrive/CRAFT/craft_models/detection/CRAFT_clr_amp_29500.pth"
-  eval_interval: 150
+  eval_interval: 50
   batch_size: 10
   st_iter: 0
   end_iter: 1500

@@ -1,9 +1,9 @@
 wandb_opt: True
 
-results_dir: "./exp/"
-vis_test_dir: "./vis_result/"
+results_dir: "/content/drive/MyDrive/CRAFT/CRAFTS_Det_Training_data/CRAFTS_det_results_dir"
+vis_test_dir: "/content/drive/MyDrive/CRAFT/CRAFTS_Det_Training_data/CRAFTS_det_vis_test_dir"
 
-data_root_dir: "/content/drive/MyDrive/datasets/DILab_perscription_Dataset/temp_100_L1"
+data_root_dir: "/content/drive/MyDrive/CRAFT/CRAFTS_Det_Training_data/data_root_dir"
 score_gt_dir: None # "/data/ICDAR2015_official_supervision"
 mode: "weak_supervision"
 

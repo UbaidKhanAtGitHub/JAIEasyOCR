@@ -53,8 +53,8 @@ class Reader(object):
         """
         self.verbose = verbose
         self.download_enabled = download_enabled
-
-        self.model_storage_directory = MODULE_PATH + '/model'
+        custom_mode_path = '.'
+        self.model_storage_directory = custom_mode_path + '/detection_models'
         if model_storage_directory:
             self.model_storage_directory = model_storage_directory
         Path(self.model_storage_directory).mkdir(parents=True, exist_ok=True)
@@ -211,6 +211,7 @@ class Reader(object):
             dict_list[lang] = os.path.join(BASE_PATH, 'dict', lang + ".txt")
 
         if detector:
+            print(f' \n DETECTOR_PATH: {detector_path}')
             self.detector = self.initDetector(detector_path)
             
         if recognizer:
